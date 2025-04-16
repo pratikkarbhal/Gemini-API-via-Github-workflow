@@ -7,10 +7,10 @@ A simple Python bot using **Google Gemini 1.5 Pro** that can:
 
 Just update your prompt in `prompt.txt` and let GitHub Actions do the magic.
 
-## Now, you may ask, why??
+### Now, you may ask, why??
 - So I observed that while being connected to some private networks, There's a filter that blocks use of AI tools. To overcome this, we can use this bot that will run **Gemini** totally on github's headless virtual environment. Avoiding obstacles in your productivity.
 
-## Features
+### Features
 - AI-powered code generation and explanations
 - Works with the latest Gemini API
 - No need to run anything locally
