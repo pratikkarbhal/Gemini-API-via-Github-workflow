@@ -1,0 +1,30 @@
+name: Gemini Bot Runner
+
+on:
+  push:
+    paths:
+      - prompt.txt  # Trigger workflow when prompt.txt changes
+  workflow_dispatch:   # Manual trigger
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install google-generativeai
+
+      - name: Run Gemini Bot
+        run: |
+          python gemini_bot.py
