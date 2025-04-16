@@ -1,9 +1,6 @@
 # Gemini Bot
 
-A simple Python bot using **Google Gemini 1.5 Pro** that can:
-- Generate code
-- Solve programming problems
-- Explain code in plain English
+A simple Python bot using **Google Gemini 1.5 Pro** (generative AI) that can help you with your coding problems i.e. Code generation, solution, explanation, etc.
 
 Just update your prompt in `prompt.txt` and let GitHub Actions do the magic.
 
