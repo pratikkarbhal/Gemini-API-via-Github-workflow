@@ -16,7 +16,7 @@ Just update your prompt in `prompt.txt` and let GitHub Actions do the magic.
 ## Getting Started
 
 1. **Fork this repo**
-2. **Add your Gemini API key** in GitHub secrets as `GOOGLE_API_KEY` ( google offers ![Gemini's free API access](https://support.google.com/googleapi/answer/6158862?hl=en) for new users with some limitations)
+2. **Add your Gemini API key** in GitHub secrets as `GOOGLE_API_KEY` ( google offers [(Gemini's free API access)](https://support.google.com/googleapi/answer/6158862?hl=en) for new users with some limitations)
 3. **Edit `prompt.txt`** with your question/code
 4. **Push the changes** — the bot will run automatically, check results in 'Actions' tab
 
