@@ -1,1 +1,2 @@
-Hi
+Hi,
+Type your prompt here.
