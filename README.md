@@ -22,7 +22,7 @@ Just update your prompt in `prompt.txt` and let GitHub Actions do the magic.
 
 ## Example Prompts
 - “Hi, How are you Gemini?”
-- ![Desktop](https://github.com/pratikkarbhal/Web-IPTV/blob/main/desktop.gif)
+- ![Desktop](https://github.com/pratikkarbhal/Gemini-API-via-Github-workflow/blob/output.jpg)
 
 ## Tech Stack
 - Python
